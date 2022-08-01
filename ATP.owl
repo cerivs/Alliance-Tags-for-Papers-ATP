@@ -9,10 +9,16 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/TEMP">
+        <owl:versionIRI rdf:resource="https://github.com/alliance-genome/agr_atp_ontology/blob/main/ATP.owl"/>
+        <Licence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/alliance-genome/agr_atp_ontology/blob/main/LICENSE</Licence>
+        <Title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alliance Tags for Papers</Title>
+        <description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Application ontology used to tag papers at the Alliance of Genome Resources.</description>
         <oboInOwl:auto-generated-by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBO-Edit 2.3-beta5</oboInOwl:auto-generated-by>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ceri Van Slyke</oboInOwl:created_by>
         <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28:07:2022 11:47</oboInOwl:date>
-        <oboInOwl:default-namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">default_namespace</oboInOwl:default-namespace>
+        <oboInOwl:default-namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alliance_tags_papers</oboInOwl:default-namespace>
         <oboInOwl:hasOBOFormatVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2</oboInOwl:hasOBOFormatVersion>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATP</oboInOwl:id>
         <oboInOwl:saved-by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zfinf</oboInOwl:saved-by>
     </owl:Ontology>
     
@@ -34,6 +40,24 @@
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
     </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TEMP#Licence -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/TEMP#Licence"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TEMP#Title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/TEMP#Title"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TEMP#description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/TEMP#description"/>
     
 
 
