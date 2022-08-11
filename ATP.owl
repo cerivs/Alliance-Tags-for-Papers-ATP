@@ -12,7 +12,6 @@
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ATP.owl">
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/3.0/"/>
         <oboInOwl:auto-generated-by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBO-Edit 2.3-beta5</oboInOwl:auto-generated-by>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ceri Van Slyke</oboInOwl:created_by>
         <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10:08:2022 10:07</oboInOwl:date>
         <oboInOwl:default-namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alliance_tag</oboInOwl:default-namespace>
         <oboInOwl:hasOBOFormatVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2</oboInOwl:hasOBOFormatVersion>
