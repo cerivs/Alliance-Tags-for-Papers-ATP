@@ -9,10 +9,6 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
-        <owl:versionIRI rdf:resource="https://github.com/alliance-genome/agr_atp_ontology/blob/main/ATP.owl"/>
-        <Licence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/alliance-genome/agr_atp_ontology/blob/main/LICENSE</Licence>
-        <Title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alliance Tags for Papers</Title>
-        <description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Application ontology used to tag papers at the Alliance of Genome Resources.</description>
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ATP.owl">
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/3.0/"/>
         <oboInOwl:auto-generated-by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBO-Edit 2.3-beta5</oboInOwl:auto-generated-by>
